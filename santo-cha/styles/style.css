@@ -1,5 +1,5 @@
 :root{
-    --cor-top-end: #7bad66;
+    --cor-top-end: #72b96b;
 }
 .navbar.navbar-expand-lg.navbar.navbar-light.fixed-top{
     padding-top: 0;
@@ -14,10 +14,10 @@
 .navbar{
     padding-top: 0;
     padding-bottom: 0; 
+    background-color: #72b96b;
 }
-
-.nav-texto{
-    color: #f4f343 !important;
+body{
+    padding-top: 70px;
 }
 
 a.navbar-brand{
