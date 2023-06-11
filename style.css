@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+:root{
+    --cor-backg-top-end: #72b96b;
+    --cor-text-top-end: white;
+}
+.navbar.navbar-expand-lg.navbar.navbar-light.fixed-top{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.imagem-carrosel {
+    object-fit: cover;
+    object-position: 100% 100%;
+    height: 450px;
+}
+.navbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; 
+    background-color: var(--cor-backg-top-end);
+}
+body{
+    padding-top: 70px;
+}
+.contact-form{
+    padding-left: 15px;
+}
+.contact-form-recipient{
+    border-radius: 8px;
+}
+.whatsapp-anchor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+a.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.imagem-carrosel{
+    object-fit: cover;
+    object-position: 0% 70%;
+    height: 450px;
+}
+.nav-item{
+    color: var(--cor-text-top-end);
+    font-family: 'Montserrat', sans-serif;
+}
+.titulo-clientes{
+    display: flex;
+    justify-content: center;
+}
+.div-sobre{
+    display: flex;
+    justify-content: center;
+}
+.body-logo{
+    max-height: 100%;
+    max-width: 100%; 
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+.icones-titulo{
+    display: flex;
+    justify-content: center;
+}
+.footer-green{
+    background-color: var(--cor-backg-top-end);
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  
