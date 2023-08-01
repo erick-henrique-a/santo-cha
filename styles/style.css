@@ -7,7 +7,6 @@
     padding-top: 0;
     padding-bottom: 0;
 }
-
 .imagem-carrosel {
     object-fit: cover;
     object-position: 100% 100%;
@@ -68,12 +67,7 @@ a.navbar-brand{
 .footer-green{
     background-color: var(--cor-backg-top-end);
 }
-.footer-logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.footer-social{
+.footer-logo, .footer-social{
     display: flex;
     align-items: center;
     justify-content: center;
