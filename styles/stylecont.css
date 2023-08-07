@@ -1,0 +1,20 @@
+.contact-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.botao-enviar{
+    margin-left: 36%;
+}
+@media (max-width: 1200px) {
+    .imgForm{
+        display: none;
+    }
+    .contact-form{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 5%;
+    }
+    .botao-enviar{
+        margin-left: 40%;
+    }
+}

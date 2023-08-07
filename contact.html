@@ -1,94 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Santo Chá</title>
-    <link rel="icon" type="image/jpg" href="assets/santo-cha.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" href="styles/styleaux.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Santo Chá</title>
+  <link rel="icon" type="image/jpg" href="assets/santo-cha.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" href="styles/stylecont.css">
+
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" >
-            <a class="navbar-brand" href="index.html">
-              <img class="body-logo" src="assets/santo-cha.png" width="90" height="90" alt="Santo Chá">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link nav-texto" href="index.html">INICIO<span class="sr-only">(Página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-texto" href="about.html">QUEM SOMOS</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link nav-texto" href="contact.html">CONTATO</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-      </header>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img class="body-logo" src="assets/santo-cha.png" width="90" height="90" alt="Santo Chá">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav-texto" href="index.html">INICIO<span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-texto" href="about.html">QUEM SOMOS</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link nav-texto" href="contact.html">CONTATO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-      <main>
-        <br>
-        <div class="titulos">
-          <h1>Contato</h1>
-          <h3>Fale com a Santo Chá. Envie suas dúvidas, comentários e sugestões para nossa equipe.</h3>
-        </div>
-        
-        <hr class="featurette-divider">
-        <div class="contact-form">
-          <div></div>
-          <div style="justify-self: center;">
+  <main>
+    <br>
+    <div class="titulos">
+      <h1>Contato</h1>
+      <h3>Fale com a Santo Chá. Envie suas dúvidas, comentários e sugestões para nossa equipe.</h3>
+    </div>
 
-            <h4>Trabalhe conosco!</h4>
-            <input type="hidden" name="recipient" value="michelle_monique1@hotmail.com"> <input type="hidden" name="redirect" value="index"> <input type="hidden" name="subject" value="teste de assunto"> <input type="hidden" name="email" value="erick.henrique.deax@gmail.com">
-            <p> Nome*:<br /> <input class="contact-form-recipient" type="text" size="30" name="Nome" style="border-radius: 8px;"> </p>
-            <p> E-mail*:<br /> <input class="contact-form-recipient" type="text" size="30" name="replyto"> </p>
-            <p> Telefone:<br /> <input class="contact-form-recipient" type="tel" maxlength="15" size="30" name="Telefone De contato:" placeholder="(XX) XXXX-XXXX"> </p>
-            <p> Mensagem*: </p>
-            <textarea class="contact-form-recipient" name="Detalhes" id="text" cols="40" rows="4"></textarea>
-            <br>
-            <input class="botao-enviar" style="right: 0;" type="submit" name="BTEnvia" value="Enviar"></form>
-          </div>
-          <div></div>
-        </div>
+    <hr class="featurette-divider">
+    <div class="contact-form">
+      <div class="imgForm" name="esquerda"> <img src="assets/santo tempero logo.png"
+          style="width: 500px; height: 400px;"> </div>
+      <div>
+
+        <h4>Trabalhe conosco!</h4>
         <form action="http://formmail.kinghost.net/formmail.cgi" method="POST">
-          <br>
-            
-            <hr class="featurette-divider">
+          <div class="form-group">
+            <input type="hidden" name="recipient" value="contato@santochaervaseespeciarias.com">
+            <input type="hidden" name="redirect" value="https://santochaervaseespeciarias.com/index.html">
+            <input type="hidden" name="subject" value="Pedido de Contato enviado pelo site">
+            <input type="hidden" name="email" value="contato@santochaervaseespeciarias.com">
+          </div>
+          <div class="form-group">
+            <label for="formNome">Nome:</label><br>
+            <input class="contact-form-recipient form-control" id="formNome" type="text" size="35" name="Nome" style="border-radius: 8px;">
+          </div>
+          <div class="form-group">
+            <label for="formEmail">E-mail:</label><br>
+            <input id="formEmail" class="contact-form-recipient form-control" type="text" size="35" name="replyto">
+          </div>
+          <div class="form-group">
+            <label for="formTel">Telefone:</label><br>
+            <input id="formTel" class="contact-form-recipient form-control" type="tel" maxlength="15" size="35" name="Telefone De contato:"
+            placeholder="(XX) XXXX-XXXX">
+          </div>
+          <div class="form-group">
+            <label for="formDetalhes">Mensagem:</label><br>
+            <textarea id="formDetalhes" class="contact-form-recipient form-control" name="Detalhes" id="text" cols="40" rows="4"></textarea>
+          </div>
+          <div class="form-group">
+            <input class="botao-enviar btn btn-success" style="right: 0;" type="submit" name="BTEnvia" value="Enviar"
+            onclick="alert('Seu email foi enviado com sucesso!');">
+          </div>
+        </form>
+      </div>
+      <div class="imgForm" name="direita"> <img src="assets/santo-cha.jpg" style="width: 500px; height: 400px;"> </div>
+    </div>
+    <br>
 
-            <div class="whatsapp-anchor">
-              <h3>Ou nos contate diretamente no whatsapp!</h3>
-              <a href="http://wa.link/5yyuic"><img src="assets/whatsapp.png" height="50"></a>
-            </div>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      </main>
+    <hr class="featurette-divider">
 
-      <footer id="colophon" class="footer" role="contentinfo">
-        <div class="footer-wrap">
-      
-          <!-- <a class="footer-logo" href="#" rel="home"> -->
-            <!-- <img src="https://santocha.loja2.com.br/img/6e12d630ac04a658b317fc071fa5c8c9.jpg" alt="Santo Cha"> -->
-          <!-- </a> -->
-      
-          <div class="footer-green">
-       <hr class="footer-hr">
-      
-          <div class="footer-social">
-                    <a href="https://www.instagram.com/santochaprodutosnaturais/" target="_blank" rel="noopener"><img src="assets/icone-insta.png" width="32px" height="32px" alt="Nos encontre no Instagram"></a>
-                  </div>
-      
-          <div class="footer-copyright" style="color: white;">© 2023 Santo Cha Ervas & Especiarias. Todos direitos reservados.</div>
-        </footer>
+    <div class="whatsapp-anchor">
+      <h3>Ou nos contate diretamente no whatsapp!</h3>
+      <a href="http://wa.link/5yyuic"><img src="assets/whatsapp.png" height="50"></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+  </main>
+
+  <footer id="colophon" class="footer" role="contentinfo">
+    <div class="footer-wrap">
+
+
+      <div class="footer-green">
+        <hr class="footer-hr">
+
+       <div class="footer-social">
+                <a href="https://www.instagram.com/santochaervaseespeciarias/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg> </a>
+              </div>
+
+        <div class="footer-copyright" style="color: white;">© 2023 Santo Cha Ervas & Especiarias. Todos direitos
+          reservados.</div>
+  </footer>
 </body>
+
 </html>
